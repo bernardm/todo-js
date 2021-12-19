@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo List App</title>
+  <title>Todo Project App</title>
   </link>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -12,11 +12,11 @@
 </head>
 <style>
   /* flexbox */
+
   #flex-container {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid red;
-
     flex-direction: row;
   }
 
@@ -31,16 +31,27 @@
   }
 
   @media screen and (max-width: 900px) {
+
     #tree-view,
     #item-view {
       flex-grow: 1;
     }
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 490px) {
     #flex-container {
       flex-direction: column;
     }
+  }
+
+  #addGroupInput,
+  #addProjectInput,
+  #addTodoInput {
+    display: inline;
+  }
+
+  .error {
+    color: red;
   }
 </style>
 
@@ -48,38 +59,92 @@
   <div id="flex-container">
 
     <ul id="tree-view">
+      <li style="list-style-type: none;">
+        <form id="addGroup">
+          <input id="addGroupInput" placeholder="Enter Project Name" type="text">
+          <button id="addGroupButton" type="submit">
+          <i class="fas fa-folder-plus"></i>
+          </button>
+          <div id="addGroupError" class="error"> -error- </div>
+        </form>
+      </li>
       <li id="groupA">
-        Tiny Habit Checklists
+        Tiny Habit Checklist
         <ul>
-          <li id="groupA-list1">When I go to bed</li>
-          <li id="groupA-list2">When I wake up</li>
-          <li id="groupA-list3">When I start a programming project</li>
+          <li id="groupA-project1">When I go to bed</li>
+          <li id="groupA-project2">When I wake up</li>
+          <li id="groupA-project3">When I start a programming project</li>
+          <li style="list-style-type: none;">
+            <form id="addProject">
+                <input id="addProjectInput" placeholder="Enter Project Name" type="text">
+                <button id="addProjectButton" type="submit">
+                    <i class="fas fa-list-ul"></i></i>
+                </button>
+              <div id="addGroupError" class="error"> -error- </div>
+            </form>
+          </li>
         </ul>
-      </li> <!-- group A -->
+      </li>
+      <!-- group A -->
       <li id="groupB">
         Drive
         <ul>
-          <li id="groupB-list1">Grocery</li>
-          <li id="groupB-list2">Shopping</li>
-          <li id="groupB-list3">Library</li>
+          <li id="groupB-project1">Grocery</li>
+          <li id="groupB-project2">Shopping</li>
+          <li id="groupB-project3">Library</li>
+          <li style="list-style-type: none;">
+            <form id="addProject">
+              <input id="addProjectInput" placeholder="Enter Project Name" type="text">
+              <button id="addProjectButton" type="submit">
+                  <i class="fas fa-list-ul"></i></i>
+              </button>
+            <div id="addGroupError" class="error"> -error- </div>
+          </form>
+          </li>
         </ul>
-      </li> <!-- group B -->
+      </li>
+      <!-- group B -->
       <li id="groupC">
         Maintenance - Health
         <ul>
-          <li id="groupC-list1">The apartment is completely clean</li>
-          <li id="groupC-list2">I am calm and happy</li>
+          <li id="groupC-project1">The apartment is completely clean</li>
+          <li id="groupC-project2">I am calm and happy</li>
+          <li style="list-style-type: none;">
+            <form id="addProject">
+              <input id="addProjectInput" placeholder="Enter Project Name" type="text">
+              <button id="addProjectButton" type="submit">
+                  <i class="fas fa-list-ul"></i></i>
+              </button>
+            <div id="addGroupError" class="error"> -error- </div>
+          </form>
+          </li>
         </ul>
-      </li> <!-- group C -->
-    </ul> <!-- tree view -->
+      </li>
+      <!-- group C -->
+    </ul>
+    <!-- tree view -->
 
     <ul id="item-view">
       <b>Grocery</b>
-      <li>apples</li>
-      <li>bananas</li>
-      <li>chicku</li>
+      <li id="groupB-project1-item1">[ ] apples 2012-04-23T18:25:43.511Z</li>
+      <li id="groupB-project1-item2">[ ] bananas</li>
+      <li id="groupB-project1-item3">[x] chicku</li>
+      <li id="groupB-project1-item4">[ ] durian</li>
+      <li style="list-style-type: none;">
+        <form id="addTodo">
+          <input id="addTodoInput" placeholder="Enter a Todo item" type="text">
+          <button id="addTodoButton" type="submit">
+            <i class="fas fa-greater-than"></i>
+          </button>
+        </form>
+      </li>
     </ul>
   </div>
 
 </body>
+<script>
+  inputbtn = document.querySelectorAll("#inputbtn")
+  console.log(inputbtn)
+</script>
+
 </html>

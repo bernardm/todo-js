@@ -5,51 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List App</title>
-    <link rel="stylesheet" href="index.css">
     </link>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 <style>
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        border: 2px solid black;
-    }
-    /* Create four equal columns */
-
-    .box {
-        flex: 25%;
-        padding: 20px;
-        border: 2px solid green;
-    }
-    /* On screens that are 992px wide or less, go from four columns to two columns */
-
-    @media screen and (max-width: 992px) {
-        .box {
-            flex: 50%;
-        }
-    }
-    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-
-    @media screen and (max-width: 600px) {
-        .box {
-            flex-direction: column;
-        }
-    }
-
-    .box1 {
-        flex-shrink: -1;
-    }
-
-    .box2 {
-        flex-grow: 100;
-    }
     /* flexbox */
 
     #flex-container {
-        border: 2px solid red;
         display: flex;
+        flex-wrap: wrap;
+        border: 2px solid red;
         flex-direction: row;
     }
 
@@ -62,7 +28,25 @@
         flex-grow: 2;
         border: 2px solid blue;
     }
-    /* lakshay flexbox */
+
+    @media screen and (max-width: 900px) {
+        #tree-view,
+        #item-view {
+            flex-grow: 1;
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        #flex-container {
+            flex-direction: column;
+        }
+    }
+
+    #addGroupInput,
+    #addListInput,
+    #addTodoInput {
+        display: none;
+    }
 </style>
 
 <body>
@@ -72,21 +56,21 @@
             <li>
                 <form id="addGroup">
                     <input id="addGroupInput" placeholder="Enter Project Name" type="text">
-                    <button type="submit">
+                    <button id="inputbtn" type="submit">
                     <i class="fas fa-folder-plus"></i>
                 </button>
                 </form>
             </li>
             <li id="groupA">
-                Group A
-                <ul id="groupA-list1">
-                    <li>List 1</li>
-                    <li>List 2</li>
-                    <li>List 3</li>
+                Tiny Habit Checklists
+                <ul>
+                    <li id="groupA-list1">When I go to bed</li>
+                    <li id="groupA-list2">When I wake up</li>
+                    <li id="groupA-list3">When I start a programming project</li>
                     <li>
                         <form id="addList">
                             <input id="addListInput" placeholder="Enter List Name" type="text">
-                            <button type="submit">
+                            <button id="inputbtn" type="submit">
                                 <i class="fas fa-list-ul"></i></i>
                             </button>
                         </form>
@@ -95,47 +79,62 @@
             </li>
             <!-- group A -->
             <li id="groupB">
-                Group B
-                <ul id="groupB-list1">
-                    <li>List 1</li>
-                    <li>List 2</li>
-                    <li>List 3</li>
-                </ul>
-                <ul id="groupB-list2">
-                    <li>List 1</li>
-                    <li>List 2</li>
-                    <li>List 3</li>
+                Drive
+                <span class="errorMessage"> error </span>
+                <ul>
+                    <li id="groupB-list1">Grocery</li>
+                    <li id="groupB-list2">Shopping</li>
+                    <li id="groupB-list3">Library</li>
+                    <li>
+                        <form id="addList">
+                            <input id="addListInput" placeholder="Enter List Name" type="text">
+                            <button id="inputbtn" type="submit">
+                                <i class="fas fa-list-ul"></i></i>
+                            </button>
+                        </form>
+                    </li>
                 </ul>
             </li>
             <!-- group B -->
+            <li id="groupC">
+                Maintenance - Health
+                <ul>
+                    <li id="groupC-list1">The apartment is completely clean</li>
+                    <li id="groupC-list2">I am calm and happy</li>
+                    <li>
+                        <form id="addList">
+                            <input id="addListInput" placeholder="Enter List Name" type="text">
+                            <button id="inputbtn" type="submit">
+                                <i class="fas fa-list-ul"></i></i>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+            <!-- group C -->
         </ul>
         <!-- tree view -->
 
         <ul id="item-view">
-            <b>Group B</b>
-            <li>todo item</li>
-            <li>todo item</li>
-            <li>todo item</li>
+            <b>Grocery</b>
+            <li>apples</li>
+            <li>bananas</li>
+            <li>chicku</li>
             <li>
                 <form id="addTodo">
                     <input id="addTodoInput" placeholder="Enter a Todo item" type="text">
-                    <button type="submit">
+                    <button id="inputbtn" type="submit">
                     <i class="fas fa-greater-than"></i>
             </button>
                 </form>
             </li>
         </ul>
-
     </div>
 
-    <!-- two containers side by side -->
-    <div class="container">
-        <div class="box1 box">box 1</div>
-        <div class="box2 box">box 2</div>
-    </div>
-
-
-    </div>
 </body>
+<script>
+    inputbtn = document.querySelectorAll("#inputbtn")
+    console.log(inputbtn)
+</script>
 
 </html>
