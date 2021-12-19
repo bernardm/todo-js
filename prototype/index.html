@@ -4,102 +4,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo Project App</title>
-  </link>
+  <title>Todo List App</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-</head>
-<style>
-  /* flexbox */
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-  #flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid red;
-    flex-direction: row;
-  }
+    body {
+      background-image: linear-gradient(120deg, rgb(226, 110, 75), rgb(238, 136, 41));
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: white
+    }
 
-  #tree-view {
-    flex-grow: 1;
-    border: 2px solid green;
-  }
-
-  #item-view {
-    flex-grow: 2;
-    border: 2px solid blue;
-  }
-
-  @media screen and (max-width: 900px) {
+    /* flexbox */
+    #flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px solid red;
+      flex-direction: row;
+    }
 
     #tree-view,
     #item-view {
+      padding: 10px 10px 10px 30px;
+    }
+
+    #tree-view {
       flex-grow: 1;
+      border: 2px solid green;
     }
-  }
 
-  @media screen and (max-width: 490px) {
-    #flex-container {
-      flex-direction: column;
+    #item-view {
+      flex-grow: 2;
+      border: 2px solid blue;
     }
-  }
 
-  #addGroupInput,
-  #addProjectInput,
-  #addTodoInput {
-    display: inline;
-  }
+    .tree {
+      padding-bottom: 10px;
+    }
 
-  .error {
-    color: red;
-  }
-</style>
+    .tree-input {
+      list-style-type: none;
+    }
+
+    @media screen and (max-width: 900px) {
+
+      #tree-view,
+      #item-view {
+        flex-grow: 1;
+      }
+    }
+
+    @media screen and (max-width: 490px) {
+      #flex-container {
+        flex-direction: column;
+      }
+    }
+
+    /* input elements */
+    #addGroupInput,
+    #addProjectInput,
+    #addItemInput {
+      display: inline;
+    }
+
+    #projectTitle {
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .addButton:hover {
+      background-color: white;
+      color: #eead4b;
+      transition-duration: .2s;
+    }
+
+    .addButton {
+      font-size: 1rem;
+      padding: 0.3rem;
+      border-width: initial;
+      border-style: none;
+      border-color: initial;
+      border-image: initial;
+      background-color: #eead4b;
+      color: white;
+      transition-duration: .2s;
+      border-radius: 20%;
+      cursor: pointer;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
 
 <body>
   <div id="flex-container">
-
     <ul id="tree-view">
-      <li style="list-style-type: none;">
+      <li class="tree-input">
         <form id="addGroup">
           <input id="addGroupInput" placeholder="Enter Project Name" type="text">
-          <button id="addGroupButton" type="submit">
-          <i class="fas fa-folder-plus"></i>
+          <button id="addGroupButton" class="addButton" type="submit">
+            <i class="fas fa-folder-plus"></i>
           </button>
           <div id="addGroupError" class="error"> -error- </div>
         </form>
       </li>
-      <li id="groupA">
+      <li id="groupA" class="tree">
         Tiny Habit Checklist
         <ul>
           <li id="groupA-project1">When I go to bed</li>
           <li id="groupA-project2">When I wake up</li>
           <li id="groupA-project3">When I start a programming project</li>
-          <li style="list-style-type: none;">
+          <li class="tree-input">
             <form id="addProject">
-                <input id="addProjectInput" placeholder="Enter Project Name" type="text">
-                <button id="addProjectButton" type="submit">
-                    <i class="fas fa-list-ul"></i></i>
-                </button>
+              <input id="addProjectInput" placeholder="Enter Project Name" type="text">
+              <button id="addProjectButton" class="addButton" type="submit">
+                <i class="fas fa-list-ul"></i></i>
+              </button>
               <div id="addGroupError" class="error"> -error- </div>
             </form>
           </li>
         </ul>
       </li>
       <!-- group A -->
-      <li id="groupB">
+      <li id="groupB" class="tree">
         Drive
         <ul>
           <li id="groupB-project1">Grocery</li>
           <li id="groupB-project2">Shopping</li>
           <li id="groupB-project3">Library</li>
-          <li style="list-style-type: none;">
+          <li class="tree-input">
             <form id="addProject">
               <input id="addProjectInput" placeholder="Enter Project Name" type="text">
-              <button id="addProjectButton" type="submit">
-                  <i class="fas fa-list-ul"></i></i>
+              <button id="addProjectButton" class="addButton" type="submit">
+                <i class="fas fa-list-ul"></i></i>
               </button>
-            <div id="addGroupError" class="error"> -error- </div>
-          </form>
+              <div id="addGroupError" class="error"> -error- </div>
+            </form>
           </li>
         </ul>
       </li>
@@ -109,14 +157,14 @@
         <ul>
           <li id="groupC-project1">The apartment is completely clean</li>
           <li id="groupC-project2">I am calm and happy</li>
-          <li style="list-style-type: none;">
+          <li class="tree-input">
             <form id="addProject">
               <input id="addProjectInput" placeholder="Enter Project Name" type="text">
-              <button id="addProjectButton" type="submit">
-                  <i class="fas fa-list-ul"></i></i>
+              <button id="addProjectButton" class="addButton" type="submit">
+                <i class="fas fa-list-ul"></i></i>
               </button>
-            <div id="addGroupError" class="error"> -error- </div>
-          </form>
+              <div id="addProjectError" class="error"> -error- </div>
+            </form>
           </li>
         </ul>
       </li>
@@ -125,26 +173,22 @@
     <!-- tree view -->
 
     <ul id="item-view">
-      <b>Grocery</b>
+      <div id="projectTitle">Grocery</div>
       <li id="groupB-project1-item1">[ ] apples 2012-04-23T18:25:43.511Z</li>
       <li id="groupB-project1-item2">[ ] bananas</li>
       <li id="groupB-project1-item3">[x] chicku</li>
       <li id="groupB-project1-item4">[ ] durian</li>
       <li style="list-style-type: none;">
-        <form id="addTodo">
-          <input id="addTodoInput" placeholder="Enter a Todo item" type="text">
-          <button id="addTodoButton" type="submit">
+        <form id="addItem">
+          <input id="addItemInput" placeholder="Enter a Todo item" type="text">
+          <button id="addItemButton" class="addButton" type="submit">
             <i class="fas fa-greater-than"></i>
           </button>
+          <div id="addItemError" class="error"> -error- </div>
         </form>
       </li>
     </ul>
   </div>
-
 </body>
-<script>
-  inputbtn = document.querySelectorAll("#inputbtn")
-  console.log(inputbtn)
-</script>
 
 </html>
