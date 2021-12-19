@@ -1,26 +1,20 @@
-# Todo List Project
+# Todo App Project
 
 ## reference
 
 - [Odin Project Specs](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/todo-list)
 - [SCRUM Book](https://www.goodreads.com/book/show/19288230-scrum)
 
-## workflow
+## architecture
 
-### planning a project
-
-- make a list of features
-- break down the features into todo items
-- plan the data
-- write the code
-  - start with the simplest abstraction
+MVC
 
 ## data
 
 ### todo item
 
-invariant:
-  - id must be unique within (item, list, group)
+#### invariant
+  - id must be unique within (item, project, group)
 
 ```json
 item: {
@@ -31,14 +25,14 @@ item: {
 }
 ```
 
-### todo list
+### todo project
 
-invariant:
-  - id must be unique within (item, list, group)
-  - description must be unique within (list, group)
+#### invariant
+  - id must be unique within (item, project, group)
+  - description must be unique within (project, group)
 
 ```json
-list: {
+project: {
   "id": 123,
   "description": "",
   "displayOrder": 3,
@@ -48,15 +42,15 @@ list: {
 
 ### todo group
 
-invariant:
-  - id must be unique within (item, list, group)
-  - description must be unique within (list, group)
+#### invariant
+  - id must be unique within (item, project, group)
+  - description must be unique within (project, group)
 
 ```json
 group: {
   "id": 123,
   "description": "",
   "displayOrder": 3,
-  "lists": [],
+  "projects": [],
 }
 ```
