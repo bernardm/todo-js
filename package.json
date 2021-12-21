@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardm/todo-js.git"
+  },
+  "keywords": [],
+  "author": "Bernard Martis <martisbvk@gmail.com> (https://bernardm.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardm/todo-js/issues"
+  },
+  "homepage": "https://github.com/bernardm/todo-js#readme"
+}

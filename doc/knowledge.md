@@ -5,6 +5,7 @@
 - [Odin Project Specs](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/todo-list)
 - [SCRUM Book](https://www.goodreads.com/book/show/19288230-scrum)
 - [date-fns library](https://date-fns.org/docs/Getting-Started/)
+- [node assert](https://nodejs.org/api/assert.html)
 
 ## library
 
@@ -28,7 +29,6 @@ MVC
 
 #### invariant
   - id must be unique within (item, project, group)
-
 
 // intrinsic data
 ```json
@@ -84,3 +84,35 @@ group: {
 ## css
 
 ### color palette
+
+## computer science
+
+scalar: one piece of data. eg: integer, float, one letter (character)
+data group: multiple scalars grouped together.
+  c, c++: struct
+  ```c
+  struct Person {
+    char name[50];
+    int citNo;
+    float salary;
+  };
+  ```
+  js: object
+  ```javascript
+  const Person = {
+    name: '',
+    citiNo: 1,
+    salary: 12.00,
+  }
+  java: POJO
+  ```java
+  public class Person {
+    public String name;
+    public int citiNo;
+    public int salary;
+  }
+  ```
+
+data structure: the individual items (elements) of these data structures are called nodes
+  priority queue
+  red-black tree
