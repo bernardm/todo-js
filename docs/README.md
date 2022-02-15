@@ -14,10 +14,14 @@
     <span style="vertical-align:middle; display:table-cell; height:32px">TodoJS</span>
   </h3>
 
-  <table><tr><td valign="center">
-    <img src="../images/logo.png" alt="Logo" style="width:32px; height:32px">
-    <b>TodoJS</b>
-  </td></tr></table>
+  <table><tr>
+    <td valign="center">
+      <img src="../images/logo.png" alt="Logo" style="width:32px; height:32px">
+    </td>
+    <td valign="center">
+      <b>TodoJS</b>
+    </td>
+  </tr></table>
 
   <p align="center">
     A todo list written in Vanilla JavaScript.<br />
