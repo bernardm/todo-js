@@ -3,26 +3,16 @@
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br />
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/bernardm/todo-js">
-    <img src="../images/logo.png" alt="Logo" width="32" height="32">
-  </a>
-
-<h3 align="center">TodoJS</h3>
+  <h3 align="center">TodoJS</h3>
 
   <p align="center">
-    A todo list written in Vanilla JavaScript.
-    <br />
-    <a href="https://github.com/bernardm/todo-js"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <img src="../images/logo.png" alt="Logo" width="32" height="32"> A todo list written in Vanilla JavaScript.<br />
     <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
     ·
     <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
@@ -30,8 +20,6 @@
     <a href="https://github.com/bernardm/todo-js/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -64,9 +52,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://todoappjs.martisbvk.repl.co/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `bernardm`, `todo-js`, `bernard-martis`, `TodoJS`, `A todo list written in Vanilla JavaScript.`
+A todo list written in Vanilla JavaScript.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -198,8 +186,8 @@ Project Link: [https://github.com/bernardm/todo-js](https://github.com/bernardm/
 [contributors-url]: https://github.com/bernardm/todo-js/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=for-the-badge
 [issues-url]: https://github.com/bernardm/todo-js/issues
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
-[product-screenshot]: ../images/screenshot.png
+[product-screenshot]: ../images/logo.png
