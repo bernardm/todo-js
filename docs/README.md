@@ -1,12 +1,5 @@
 <div id="top"></div>
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-<br />
-
 <!-- PROJECT LOGO -->
 <h1 align="center">
   <img align="center" src="../images/logo.png" alt="Logo">
@@ -51,6 +44,12 @@
 [![Product Name Screen Shot][product-screenshot]](https://todoappjs.martisbvk.repl.co/)
 
 A todo list written in Vanilla JavaScript.
+
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![License: MIT][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
