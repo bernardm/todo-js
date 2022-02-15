@@ -8,41 +8,19 @@
 <br />
 
 <!-- PROJECT LOGO -->
-<h1 style="align:center; display:table; width:100%; height:64px">
-  <span style="vertical-align:middle; display:table-cell">
-    <img src="../images/logo.png" alt="Logo" style="width:64px; height:64px">
-  </span>
-  <span style="vertical-align:middle; display:table-cell">
-    TodoJS
-  </span>
-</h1>
-
-<img align="center" src="../images/logo.png" alt="Logo" style="width:64px; height:64px">TodoJS</br>
-
-<h1>
-  <img align="center" src="../images/logo.png" alt="Logo" style="width:64px; height:64px">
+<h1 align="center">
+  <img align="center" src="../images/logo.png" alt="Logo">
   <span align="center">TodoJS</span>
 </h1>
 
-<div align="center">
-  <table style="border:0"><tr>
-    <td valign="center">
-      <img src="../images/logo.png" alt="Logo" style="width:64px; height:64px">
-    </td>
-    <td valign="center">
-      <h1>TodoJS</h1>
-    </td>
-  </tr></table>
-
-  <p align="center">
-    A todo list written in Vanilla JavaScript.<br />
-    <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
-    ·
-    <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/bernardm/todo-js/issues">Request Feature</a>
-  </p>
-</div>
+<p align="center">
+  A todo list written in Vanilla JavaScript.<br />
+  <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
+  ·
+  <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/bernardm/todo-js/issues">Request Feature</a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
