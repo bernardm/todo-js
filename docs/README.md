@@ -9,7 +9,12 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center"><img src="../images/logo.png" alt="Logo" style="vertical-align:middle; width:32px; height:32px"> TodoJS</h3>
+  <h3 style="display:table; width:100%">
+    <span style="vertical-align:middle; display:table-cell"><img src="../images/logo.png" alt="Logo" style="width:32px; height:32px"></span>
+    <span style="vertical-align:middle; display:table-cell">TodoJS</span>
+  </h3>
+
+  <h3 align="center"><img src="../images/logo.png" alt="Logo" style="vertical-align:middle; width:32px; height:32px">TodoJS</h3>
 
   <p align="center">
     A todo list written in Vanilla JavaScript.<br />
