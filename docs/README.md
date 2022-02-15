@@ -9,10 +9,10 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center">TodoJS</h3>
+  <h3 align="center"><img src="../images/logo.png" alt="Logo" width="32" height="32"> TodoJS</h3>
 
   <p align="center">
-    <img src="../images/logo.png" alt="Logo" width="32" height="32"> A todo list written in Vanilla JavaScript.<br />
+    A todo list written in Vanilla JavaScript.<br />
     <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
     ·
     <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
