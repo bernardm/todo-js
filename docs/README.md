@@ -9,17 +9,21 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 style="align:center; display:table; width:100%; height:32px">
-    <span style="vertical-align:middle; display:table-cell; height:32px"><img src="../images/logo.png" alt="Logo" style="width:32px; height:32px"></span>
-    <span style="vertical-align:middle; display:table-cell; height:32px">TodoJS</span>
-  </h3>
+  <h1 style="align:center; display:table; width:100%; height:32px">
+    <span style="vertical-align:center; display:table-cell; height:32px">
+      <img src="../images/logo.png" alt="Logo" style="width:32px; height:32px">
+    </span>
+    <span style="vertical-align:center; display:table-cell; height:32px">
+      TodoJS
+    </span>
+  </h1>
 
-  <table><tr>
+  <table style="border:0"><tr>
     <td valign="center">
       <img src="../images/logo.png" alt="Logo" style="width:32px; height:32px">
     </td>
     <td valign="center">
-      <b>TodoJS</b>
+      <h1>TodoJS</h1>
     </td>
   </tr></table>
 
