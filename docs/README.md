@@ -39,15 +39,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://todoappjs.martisbvk.repl.co/)
-
-A todo list written in Vanilla JavaScript.
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Product Name Screen Shot][product-screenshot]](https://todoappjs.martisbvk.repl.co/)
+
+A todo list written in Vanilla JavaScript.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
