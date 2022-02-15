@@ -9,12 +9,10 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 style="display:table; width:100%">
+  <h3 style="align:center; display:table; width:100%; height:32px">
     <span style="vertical-align:middle; display:table-cell"><img src="../images/logo.png" alt="Logo" style="width:32px; height:32px"></span>
     <span style="vertical-align:middle; display:table-cell">TodoJS</span>
   </h3>
-
-  <h3 align="center"><img src="../images/logo.png" alt="Logo" style="vertical-align:middle; width:32px; height:32px">TodoJS</h3>
 
   <p align="center">
     A todo list written in Vanilla JavaScript.<br />
@@ -24,10 +22,6 @@
     ·
     <a href="https://github.com/bernardm/todo-js/issues">Request Feature</a>
   </p>
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Issues][issues-shield]][issues-url]
-  [![License: MIT][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
 </div>
 
 <!-- TABLE OF CONTENTS -->
