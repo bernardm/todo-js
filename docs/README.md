@@ -17,6 +17,13 @@
   </span>
 </h1>
 
+<img align="center" src="../images/logo.png" alt="Logo" style="width:64px; height:64px">TodoJS</br>
+
+<h1>
+  <img align="center" src="../images/logo.png" alt="Logo" style="width:64px; height:64px">
+  <span align="center">TodoJS</span>
+</h1>
+
 <div align="center">
   <table style="border:0"><tr>
     <td valign="center">
