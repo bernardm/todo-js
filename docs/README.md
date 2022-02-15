@@ -10,8 +10,8 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <h3 style="align:center; display:table; width:100%; height:32px">
-    <span style="vertical-align:middle; display:table-cell"><img src="../images/logo.png" alt="Logo" style="width:32px; height:32px"></span>
-    <span style="vertical-align:middle; display:table-cell">TodoJS</span>
+    <span style="vertical-align:middle; display:table-cell; height:32px"><img src="../images/logo.png" alt="Logo" style="width:32px; height:32px"></span>
+    <span style="vertical-align:middle; display:table-cell; height:32px">TodoJS</span>
   </h3>
 
   <p align="center">
@@ -73,15 +73,18 @@ A todo list written in Vanilla JavaScript.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-A global instance of mocha is used for testing. To install:
-* mocha
+A global instance of mocha is used for testing.
   ```sh
   npm install -g mocha
+  ```
+
+A webserver is needed to load the JavaScript app. Any webserver can be used. The usage steps provided assume `static-server` is installed.
+  ```sh
+  npm install -g static-server
   ```
 
 ### Installation
@@ -89,6 +92,7 @@ A global instance of mocha is used for testing. To install:
 1. Clone the repo
    ```sh
    git clone https://github.com/bernardm/todo-js.git
+   cd todo-js
    ```
 1. Install NPM packages
    ```sh
@@ -100,9 +104,14 @@ A global instance of mocha is used for testing. To install:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Run the unit tests
+   ```sh
+   mocha
+   ```
+1. Launch the application
+   ```sh
+   static-server -o
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,6 +129,8 @@ See the [open issues](https://github.com/bernardm/todo-js/issues) for a full lis
 
 <!-- LICENSE -->
 ## License
+
+Copyright (c) 2021-2022 Bernard Martis, Lakshay Gosain.
 
 Distributed under the MIT License. See `docs/LICENSE.txt` for more information.
 
