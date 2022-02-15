@@ -8,7 +8,6 @@ node_modules/
 dist/
 
 # large file
-*.png
 *.gif
 
 assets/
