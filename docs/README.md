@@ -6,7 +6,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -198,8 +198,8 @@ Project Link: [https://github.com/bernardm/todo-js](https://github.com/bernardm/
 [contributors-url]: https://github.com/bernardm/todo-js/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=for-the-badge
 [issues-url]: https://github.com/bernardm/todo-js/issues
-[license-shield]: https://img.shields.io/github/license/bernardm/todo-js.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
 [product-screenshot]: ../images/screenshot.png
