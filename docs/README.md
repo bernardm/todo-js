@@ -9,7 +9,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center"><img src="../images/logo.png" alt="Logo" width="32" height="32"> TodoJS</h3>
+  <h3 align="center"><img src="../images/logo.png" alt="Logo" style="vertical-align:middle; width:32px; height:32px"> TodoJS</h3>
 
   <p align="center">
     A todo list written in Vanilla JavaScript.<br />
@@ -57,7 +57,6 @@
 A todo list written in Vanilla JavaScript.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -159,35 +158,20 @@ Distributed under the MIT License. See `docs/LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/bernardm/todo-js](https://github.com/bernardm/todo-js)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * []()
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/bernardm/todo-js.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/bernardm/todo-js.svg?style=social
 [contributors-url]: https://github.com/bernardm/todo-js/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=social
 [issues-url]: https://github.com/bernardm/todo-js/issues
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=social
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077b5
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
 [product-screenshot]: ../images/logo.png
