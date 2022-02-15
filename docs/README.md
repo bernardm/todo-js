@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/bernardm/todo-js">
-    <img src="images/logo.png" alt="Logo" width="32" height="32">
+    <img src="../images/logo.png" alt="Logo" width="32" height="32">
   </a>
 
 <h3 align="center">TodoJS</h3>
@@ -23,7 +23,7 @@
     <a href="https://github.com/bernardm/todo-js"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bernardm/todo-js">View Demo</a>
+    <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
     ·
     <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
     ·
@@ -194,7 +194,6 @@ Project Link: [https://github.com/bernardm/todo-js](https://github.com/bernardm/
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/bernardm/todo-js.svg?style=for-the-badge
 [contributors-url]: https://github.com/bernardm/todo-js/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=for-the-badge
@@ -203,4 +202,4 @@ Project Link: [https://github.com/bernardm/todo-js](https://github.com/bernardm/
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bernard-martis
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ../images/screenshot.png
