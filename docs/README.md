@@ -1,8 +1,6 @@
-<div id="top"></div>
-
 <!-- PROJECT LOGO -->
 <h1 align="center">
-  <img align="center" src="../images/logo.png" alt="Logo">
+  <img align="center" src="../images/logo.png" alt="Logo" width=40 height=40>
   <span align="center">TodoJS</span>
 </h1>
 
@@ -51,8 +49,7 @@ A todo list written in Vanilla JavaScript.
 [![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ### Built With
 
@@ -65,7 +62,7 @@ A todo list written in Vanilla JavaScript.
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -74,12 +71,12 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-A global instance of mocha is used for testing.
+Setup a global instance of mocha for testing.
   ```sh
   npm install -g mocha
   ```
 
-A webserver is needed to load the JavaScript app. Any webserver can be used. The usage steps provided assume `static-server` is installed.
+Setup a webserver to load the JavaScript app. Any webserver can be used. The usage steps provided assume `static-server` is installed.
   ```sh
   npm install -g static-server
   ```
@@ -96,7 +93,7 @@ A webserver is needed to load the JavaScript app. Any webserver can be used. The
    npm install
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -110,7 +107,7 @@ A webserver is needed to load the JavaScript app. Any webserver can be used. The
    static-server -o
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -122,7 +119,7 @@ A webserver is needed to load the JavaScript app. Any webserver can be used. The
 
 See the [open issues](https://github.com/bernardm/todo-js/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -131,15 +128,15 @@ Copyright (c) 2021-2022 Bernard Martis, Lakshay Gosain.
 
 Distributed under the MIT License. See `docs/LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/bernardm/todo-js.svg?style=social
+[contributors-shield]: https://img.shields.io/github/contributors/bernardm/todo-js.svg?style=flat-square
 [contributors-url]: https://github.com/bernardm/todo-js/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=social
+[issues-shield]: https://img.shields.io/github/issues/bernardm/todo-js.svg?style=flat-square
 [issues-url]: https://github.com/bernardm/todo-js/issues
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=social
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin&colorB=0077b5
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
 [product-screenshot]: ../images/logo.png
