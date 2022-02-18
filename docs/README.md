@@ -45,7 +45,7 @@
 [![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![TodoJS Screen Shot][product-screenshot]](https://todojs.martisbvk.repl.co/)
+[![TodoJS Screen Shot][product-screenshot]][hosted-url]
 
 A todo list written in Vanilla JavaScript.
 
@@ -63,7 +63,7 @@ A todo list written in Vanilla JavaScript.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these steps.
+The application can be [accessed online][hosted-url] for free. Data is saved in the browser on your local machine. No data is sent to the server. To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
@@ -139,3 +139,4 @@ Distributed under the MIT License. See `docs/LICENSE.txt` for more information.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
 [product-screenshot]: ../img/logo.png
+[hosted-url]: https://todojs.martisbvk.repl.co/
