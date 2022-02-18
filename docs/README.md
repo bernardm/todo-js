@@ -67,12 +67,12 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-Setup a global instance of mocha for testing.
+* Setup a global instance of mocha for testing.
   ```sh
   npm install -g mocha
   ```
 
-Setup a webserver to load the JavaScript app. Any webserver can be used. The usage steps provided assume `static-server` is installed.
+* Setup a webserver to load the JavaScript app. Any webserver can be used. The usage steps provided assume `static-server` is installed.
   ```sh
   npm install -g static-server
   ```
@@ -108,7 +108,7 @@ Setup a webserver to load the JavaScript app. Any webserver can be used. The usa
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Responsive layout fot desktop, tablet, and mobile devices
+- [ ] Responsive layout for desktop, tablet, and mobile devices
 - [ ] User data saved locally
 - [ ] Todo Groups/Projects
     - [ ] Tree view with infinite nesting
