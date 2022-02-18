@@ -1,12 +1,12 @@
 <!-- PROJECT LOGO -->
 <h1 align="center">
-  <img align="center" src="../images/logo.png" alt="Logo" width=40 height=40>
+  <img align="center" src="../img/logo.png" alt="Logo" width=40 height=40>
   <span align="center">TodoJS</span>
 </h1>
 
 <p align="center">
-  A todo list written in Vanilla JavaScript.<br />
-  <a href="https://todoappjs.martisbvk.repl.co/">View Demo</a>
+  A todo list application written in Vanilla JavaScript.<br />
+  <a href="https://todojs.martisbvk.repl.co/">View Demo</a>
   ·
   <a href="https://github.com/bernardm/todo-js/issues">Report Bug</a>
   ·
@@ -45,7 +45,7 @@
 [![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![Product Name Screen Shot][product-screenshot]](https://todoappjs.martisbvk.repl.co/)
+[![TodoJS Screen Shot][product-screenshot]](https://todojs.martisbvk.repl.co/)
 
 A todo list written in Vanilla JavaScript.
 
@@ -53,14 +53,10 @@ A todo list written in Vanilla JavaScript.
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Mocha](https://mochajs.org/)
+* [node assert](https://nodejs.org/api/assert.html)
+* [ESLint](https://eslint.org/)
+* [Font Awesome](https://fontawesome.com/)
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
@@ -112,10 +108,13 @@ Setup a webserver to load the JavaScript app. Any webserver can be used. The usa
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Responsive layout fot desktop, tablet, and mobile devices
+- [ ] User data saved locally
+- [ ] Todo Groups/Projects
+    - [ ] Tree view with infinite nesting
+    - [ ] Drag Drop to reorganize projects
+- [ ] Todo Items
+    - [ ] Drag Drop to sort todo items
 
 See the [open issues](https://github.com/bernardm/todo-js/issues) for a full list of proposed features (and known issues).
 
@@ -139,4 +138,4 @@ Distributed under the MIT License. See `docs/LICENSE.txt` for more information.
 [license-url]: https://github.com/bernardm/todo-js/blob/main/docs/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=0077b5
 [linkedin-url]: https://linkedin.com/in/bernard-martis
-[product-screenshot]: ../images/logo.png
+[product-screenshot]: ../img/logo.png
